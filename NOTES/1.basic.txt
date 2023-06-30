@@ -1,0 +1,22 @@
+
+# install typescript
+    $ npm install -g typescript
+    $ tsc -v                       // check version
+
+
+# typescript
+    - superset of javascript
+    - TS compiled to javascript
+    -  
+
+# html project
+    - run the ts file then js file will be created
+    - the set the js file
+        <script src="script.js"></script>
+
+
+# convert ts to js
+    $ tsc file_name.ts
+
+
+# ts project setup 
