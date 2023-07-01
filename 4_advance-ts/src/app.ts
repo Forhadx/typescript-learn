@@ -16,7 +16,7 @@ job = "network";
 let add1 = (a: any) => console.log(a); //
 
 // this is possible
-let add2: (a: number | string) => void = (a) => console.log(a); // x , must be add type
+let add2: (a: number | string) => void = (a) => console.log(a); 
 
 //====== default function parameter
 
