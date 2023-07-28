@@ -1,5 +1,5 @@
 /*
-    public, private, static 
+    public, private, static, readonly
 */
 
 class Person {
@@ -42,3 +42,10 @@ class Course {
 
 let obj2 = new Course("one", "English");
 obj2.display();
+
+/* readOnly
+    
+      constructor(private readOnly id: string, public name: string) {}
+
+      'readonly' only use during initialization. this property can't be write
+*/
