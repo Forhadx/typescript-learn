@@ -22,9 +22,13 @@ class Student extends Human {
   details() {
     console.log("name: ", this.name + " age: " + this.age);
   }
+
+  show() {
+    console.log("override details: ", this.name);
+  }
 }
 
 let st = new Student("forhad", 26);
 
-st.show(); // name is:  forhad
 st.details(); // name:  forhad age: 26
+st.show(); // override details:  forhad
