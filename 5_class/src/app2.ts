@@ -1,5 +1,5 @@
 /*
-    public, private, static, readonly
+    public, private, readonly
 */
 
 class Person {
