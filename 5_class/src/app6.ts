@@ -3,6 +3,7 @@
 */
 
 abstract class Shape {
+  // abstract method must be declare in abastract class
   abstract area(num: number): void;
 }
 
