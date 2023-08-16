@@ -1,3 +1,7 @@
+/*
+  interface with object
+*/
+
 interface Person {
   name: string;
   age: number;
