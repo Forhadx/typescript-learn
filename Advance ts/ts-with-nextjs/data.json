@@ -19,7 +19,7 @@
         "Volume": 22
       }
     ],
-    "CreatedTimestapUtc": "2024-03-02T05:29:59.17 6+00:00",
+    "CreatedTimestampUtc": "2024-03-02T05:29:59.17 6+00:00",
     "SellOrders": [
       {
         "OrderType": "limitBid",
@@ -32,5 +32,20 @@
         "Volume": 22
       }
     ]
+  },
+  "latestPrices": {
+    "status": "ok",
+    "prices": {
+      "btc": {
+        "bid": "123",
+        "ask": "2523",
+        "last": "980"
+      },
+      "ltc": {
+        "bid": "123",
+        "ask": "2523",
+        "last": "980"
+      }
+    }
   }
-}
+} 
