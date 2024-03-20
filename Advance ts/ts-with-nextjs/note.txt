@@ -1,0 +1,72 @@
+
+
+# default type
+    - make file name: typings.d.ts 
+    - here write different types
+    - this file not to export, this behave like default
+
+
+
+# make a json server 
+    $ npm install -g json-server
+
+    run the json server
+    $ json-server --watch data.json --port 5040
+
+    npx json-server data.json
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+  "coords": [122.22, 331.121],
+  "language": ["java", "c++", "python"],
+  "student": {
+    "id": 12,
+    "name": "jhone",
+    "phone": "12321312",
+    "age": "12",
+    "language": ["java", "c++", "python"]
+  },
+  "orderbook": {
+    "BuyOrders": [
+      {
+        "OrderType": "limitBid",
+        "Price": 100.23,
+        "Volume": 12
+      },
+      {
+        "OrderType": "limitBid",
+        "Price": 34.23,
+        "Volume": 22
+      }
+    ],
+    "CreatedTimestapUtc": "2024-03-02T05:29:59.17 6+00:00",
+    "SellOrders": [
+      {
+        "OrderType": "limitBid",
+        "Price": 100.23,
+        "Volume": 12
+      },
+      {
+        "OrderType": "limitBid",
+        "Price": 34.23,
+        "Volume": 22
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "student": {
+    "id": 12,
+    "name": "jhone",
+    "phone": "12321312",
+    "age": "12",
+    "language": ["java", "c++", "python"]
+  },
+  "orderbook": {
+    "BuyOrders": [
+      {
+        "OrderType": "limitBid",
+        "Price": 100.23,
+        "Volume": 12
+      },
+      {
+        "OrderType": "limitBid",
+        "Price": 34.23,
+        "Volume": 22
+      }
+    ],
+    "CreatedTimestapUtc": "2024-03-02T05:29:59.17 6+00:00",
+    "SellOrders": [
+      {
+        "OrderType": "limitBid",
+        "Price": 100.23,
+        "Volume": 12
+      },
+      {
+        "OrderType": "limitBid",
+        "Price": 34.23,
+        "Volume": 22
+      }
+    ]
+  }
+}
