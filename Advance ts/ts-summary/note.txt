@@ -1,0 +1,5 @@
+
+# setup
+    $ npm init -y
+    $ npm i @types/node ts-node typescript nodemon
+    $ tsc --init
