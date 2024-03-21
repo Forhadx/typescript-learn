@@ -1,5 +1,9 @@
 /*   Topics
     - and or
+    - ReadOnly
+    - Pick
+    - type guard
+    - generics
 
 */
 //################# And Or ################
@@ -87,6 +91,7 @@ interface IProduct {
 
 type TApiResponse = IVisitor | IProduct;
 
+// 'is' no use then this give an error
 function isVisitor(res: TApiResponse): res is IVisitor {
   return (res as IVisitor)?.email !== undefined;
 }
@@ -107,3 +112,27 @@ if (isVisitor(data)) {
 if (isProduct(data)) {
   console.log("Product: " + data?.title);
 }
+
+//################# generics ################
+console.log("-------------- generics ------------------");
+// ex: 1
+function show<T>(arg: T): T {
+  return arg;
+}
+
+console.log(show("my string"));
+console.log(show(12321));
+console.log(show({ name: "forhad" }));
+
+// ex: 2
+type StrOrNum<T> = T extends string ? string : number;
+function processData<T extends string | number>(input: T): StrOrNum<T> {
+  if (typeof input === "string") {
+    return input as StrOrNum<T>;
+  } else {
+    return input as StrOrNum<T>;
+  }
+}
+
+console.log(processData("forhad"));
+console.log(processData(22));
